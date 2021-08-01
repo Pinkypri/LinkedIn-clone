@@ -1,0 +1,116 @@
+.container{
+width: 250px;
+border-radius: 10px;
+margin: 20px;
+position: relative;
+border-bottom: 1px solid gray;
+box-shadow: 2px 2px 2px grey;
+height: auto;
+background:white;
+}
+.img{
+    width: 100%;
+    height: 100px;
+    border-radius: 20px 20px 0 0;
+    overflow: hidden;
+}
+.avatar{
+    margin: -50px 10px 10px 80px;
+
+    height: 100px!important;
+    width: 100px!important;
+}
+.container>h3{
+    text-align: center;
+    padding-bottom: 5px;
+}
+.connectbar{
+    display: flex;
+    flex-direction:column;
+    width: auto;
+    border-top: 1px solid rgba(128, 128, 128, 0.300);
+    padding-top: 20px ;
+    color: grey;
+    font-size: small;
+    margin-left: 5px;
+}
+
+.connectbar >p{
+    margin-left: 5px;
+}
+.group{
+    position: absolute;
+    right:15px;
+    margin-top: 20px;
+}
+
+.grouppara{
+    font-weight: 500;
+    color: black;
+}
+.invitations{
+   float: right;
+   margin-bottom: -2px;
+   padding:0px 15px;
+   color: blue;
+   font-weight:200px;
+   font-size: medium;
+}
+.premiumbar{
+    display:flex;
+    flex-direction: column;
+    font-size: small;
+    color: grey;
+    padding-top: 20px;
+    border-top: 1px solid rgba(128, 128, 128, 0.300);
+    margin-left: 10px;
+
+}
+.premiumpara{
+    color:black;
+    font-weight: 500;
+}
+
+.saveitem{
+    display:flex;
+     font-size: small;
+       color: grey;
+       border-top: 1px solid rgba(128, 128, 128, 0.300);
+       padding: 20px 10px;
+ margin-left: 3px;
+}
+
+.saveitem >p{
+    margin-left: 5px;
+    color: black;
+
+}
+
+.bottombox{
+
+    width: 250px;
+    border-radius: 10px;
+    margin: 20px;
+    border-bottom: 1px solid gray;
+    position: relative;
+    box-shadow: 2px 2px 2px grey;
+    height: auto;
+    background:white;
+    }
+.bottomsidebar{
+    padding:15px 15px;  
+    color: blue;
+    line-height: 1.5rem;
+    font-size: medium;
+    font-weight: 600;
+}    
+.add{
+    color: gray;
+    float: right;
+}
+.discover{
+    border-top: 1px solid rgba(128, 128, 128, 0.300);
+    text-align: center;
+    padding:10px 10px;
+    color: gray;
+}

@@ -1,0 +1,33 @@
+.feed{
+    margin-top: 20px;
+}
+.line{
+    width:75%;
+    height: 1px;
+    margin-top: 25px;
+    background-color: lightgray;
+    position: relative;
+}
+.linepara{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    transform:translateY(10px);
+
+    
+}
+.linetop{
+    gap:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.bordertop{
+    font-weight: 400;
+    color:black;
+    text-align: center;
+    margin-bottom: -5px !important;     
+    }
+
+    
