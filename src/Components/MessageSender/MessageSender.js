@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import style from "./MessageSender.module.css";
 import { useSelector } from "react-redux";
 import { Photo, YouTube, Event, Description } from "@material-ui/icons";

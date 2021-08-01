@@ -15,7 +15,7 @@ import styles from "./Header.module.css"
 import { useSelector } from "react-redux"
 
 const Header = () => {
-    const { user } = useSelector((state) => state.user);
+    const { user }= useSelector((state) => state.user);
 
     const [headerOption, setHeaderOption] = useState("home");
 
@@ -62,6 +62,7 @@ const Header = () => {
                 <Avatar src={user.photoURL} />
                 <p>Me<ExpandMoreSharp className={styles.header_info} /></p>
             </div>
+    
             <div className={styles.header_right} >
                 <Apps fontSize="large" />
                 <br/>

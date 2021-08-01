@@ -25,7 +25,7 @@ const Sidebar = () => {
         <br />
         <div className={style.premiumbar}>
           <p>Access exclusive tools & insights</p>
-          <p className={style.premiumpara}>Try Premium for free</p>
+          <ul className={style.ul}><li><p className={style.premiumpara}>Try Premium for free</p></li></ul>
         </div>
         <br />
         <div className={style.saveitem}>
